@@ -6,7 +6,7 @@ To analyze and evaluate the **effectiveness of marketing campaigns** run during 
 
 ---
 
-## 🧩 Problem Statement (Elaborated)
+## 🧩 Problem Statement 
 
 AtliQ Mart, a leading retail chain in South India, runs multiple promotional campaigns throughout the year to boost product sales and drive footfall to stores. During the festive periods of **Diwali 2023** and **Sankranti 2024**, the company invested significantly in various types of promotions across different stores and product categories.
 
@@ -42,16 +42,16 @@ This dashboard project was initiated to bridge that gap. Using structured data f
 
 ## 📌 Business Questions Solved
 
-| # | Question                                                                 | Status   |
-|---|--------------------------------------------------------------------------|----------|
-| 1 | Identify **Top 10 stores** by **Incremental Revenue (IR)**              | ✅ Done   |
-| 2 | Identify **Bottom 10 stores** by **Incremental Sold Units (ISU)**       | ✅ Done   |
-| 3 | Find **Top 2 promotion types** by **Incremental Revenue**               | ✅ Done   |
-| 4 | Find **Bottom 2 promotion types** by **Incremental Sold Units**         | ✅ Done   |
-| 5 | Compare **Discount vs BOGOF/Cashback** promotions                       | ✅ Done   |
-| 6 | Identify **products/categories** with high responsiveness to promos     | ✅ Done   |
-| 7 | Analyze **state-wise and city-wise** performance via heatmaps           | ✅ Done   |
-| 8 | Calculate **promotion-wise product response** using total sales lift    | ✅ Done   |
+| # | Question                                                                 |
+|---|--------------------------------------------------------------------------|
+| 1 | Identify **Top 10 stores** by **Incremental Revenue (IR)**              | 
+| 2 | Identify **Bottom 10 stores** by **Incremental Sold Units (ISU)**       | 
+| 3 | Find **Top 2 promotion types** by **Incremental Revenue**               | 
+| 4 | Find **Bottom 2 promotion types** by **Incremental Sold Units**         | 
+| 5 | Compare **Discount vs BOGOF/Cashback** promotions                       | 
+| 6 | Identify **products/categories** with high responsiveness to promos     |
+| 7 | Analyze **state-wise and city-wise** performance via heatmaps           | 
+| 8 | Calculate **promotion-wise product response** using total sales lift    |
 
 ---
 
@@ -65,7 +65,6 @@ This dashboard project was initiated to bridge that gap. Using structured data f
    - Incremental Revenue
    - Sales lift
    - Promotion effectiveness
-   - City and state performance
 
 3. **Backend Integration**  
    Created Python functions to execute queries and return DataFrames.
@@ -87,7 +86,6 @@ This dashboard project was initiated to bridge that gap. Using structured data f
 | Sales uplift metrics not directly available                 | Created derived metrics (IR, ISU, lift) using SQL and formulae           |
 | Handling orientation and missing args in bar charts         | Adjusted Plotly `orientation`, fixed required arguments                  |
 | Interpreting promo vs product response across categories    | Created category-promotion matrix to visualize correlation               |
-| Handling empty datasets (no data to visualize)              | Added conditional rendering in Streamlit to show `st.info()` messages    |
 | Ensuring dynamic filters didn’t break charts                | Used default `sort_values` and included error handling                   |
 
 ---
