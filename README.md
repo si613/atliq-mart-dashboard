@@ -4,6 +4,8 @@
 
 To analyze and evaluate the **effectiveness of marketing campaigns** run during **Diwali 2023** and **Sankranti 2024** across AtliQ Mart’s 50+ supermarkets in South India. The goal is to help the **Sales Director** identify which promotions, products, and stores performed best, enabling **data-driven decisions** for future campaigns.
 
+[Streamlit Dashboard](https://atliq-mart-dashboard-l34z9ttghbwinw4wab3sbe.streamlit.app/).
+
 ---
 
 ## 🧩 Problem Statement 
